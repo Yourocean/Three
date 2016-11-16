@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<div class="wrap">
+			<header>
+				<span>〈</span>
+				<p>输入收件人信息</p>
+			</header>
+			<section>
+				<form novalidate>
+				<div class="top">
+					<p>快递单号：<input type="text" class="express" placeholder="请输入快递单单号"/></p>
+					<div class="click">点击扫描单号</div>
+				</div>
+				<div class="bottom">
+					<p>手机号:<input type="number" class="number" ng-maxlength="11" placeholder="请输入收件人手机号码"/></p>
+					<p>确认手机号:<input type="number" class="number1" placeholder="请输入收件人手机号码"/></p>
+					<div class="click" ui-sref="memory">下一步</div>
+				</div>
+				</form>
+			</section>
+			<footer></footer>
+		</div>
+	</body>
+</html>

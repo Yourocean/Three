@@ -1,0 +1,102 @@
+@import url(m_reset.css);
+
+html{
+    font-size: 62.5%;
+}
+html,body,.wrap{
+    width: 100%;
+    height: 100%;
+}
+.box(@ver:vertical){
+    display: -webkit-box;
+    -webkit-box-orient: @ver;
+}
+.full(@w,@h,@bg){
+    width: @w;
+    height: @h;
+    background-color: @bg;
+}
+.pos(@re:relative){
+    position: @re;
+}
+.wrap{
+    .box;
+}
+header{
+    .box(horizontal);
+    .full(100%,4rem,black);
+    &>span{
+        font-size: 1.6rem;
+        color: white;
+        margin-left: 0.5rem;
+        line-height: 4rem;
+        font-weight: bold;
+        line-height: 5rem;
+    }
+    &>p{
+        color: white;
+        -webkit-box-flex: 1;
+        font-size: 1.4rem;
+        text-align: center;
+        margin-left: -2rem;
+        line-height: 5rem;
+    }
+}
+section{
+    -webkit-box-flex: 1;
+    .full(100%,auto,none);
+    .top{
+        &>p{
+            .full(90%,4rem,none);
+            margin-top: 5%;
+            letter-spacing: 0.2rem;
+            margin-left: 5%;
+            line-height: 4rem;
+            font-size: 1.6rem;
+            &>input{
+                .full(68%,2rem,none);
+                border: none;
+                border-bottom:0.1rem solid black ;
+            }
+        }
+        .click{
+            .full(80%,4rem,#46c68b);
+            border-radius: 0.5rem;
+            margin-left: 10%;
+            line-height: 4rem;
+            font-size: 1.6rem;
+            text-align: center;
+            color: white;
+            margin-top: 3rem;
+        }
+    }
+    .bottom{
+        &>p{
+            letter-spacing: 0.2rem;
+            .full(90%,4rem,none);
+            margin-left: 5%;
+            line-height: 5rem;
+            font-size: 1.6rem;
+            .number{
+                border: none;
+                border-bottom:0.1rem solid black ;
+                .full(78%,2rem,none);
+            }
+            .number1{
+                border: none;
+                border-bottom:0.1rem solid black ;
+                .full(65%,2rem,none);
+            }
+        }
+        .click{
+            .full(80%,4rem,#46c68b);
+            border-radius: 0.5rem;
+            margin-left: 10%;
+            line-height: 4rem;
+            font-size: 1.6rem;
+            text-align: center;
+            color: white;
+            margin-top: 3rem;
+        }
+    }
+}

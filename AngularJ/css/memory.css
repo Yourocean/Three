@@ -1,0 +1,164 @@
+@import url(m_reset.css);
+html {
+  font-size: 62.5%;
+}
+html,
+body,
+.wrap {
+  width: 100%;
+  height: 100%;
+}
+.wrap {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+header {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  width: 100%;
+  height: 4rem;
+  background-color: #000000;
+}
+header > span {
+  font-size: 1.6rem;
+  color: white;
+  margin-left: 0.5rem;
+  line-height: 4rem;
+  font-weight: bold;
+  line-height: 5rem;
+}
+header > p {
+  color: white;
+  -webkit-box-flex: 1;
+  font-size: 1.4rem;
+  text-align: center;
+  margin-left: -2rem;
+  line-height: 5rem;
+}
+section {
+  background-color: #ffffff;
+}
+section .recharge {
+  width: 100%;
+  height: 8rem;
+  background-color: none;
+  font-size: 1.4rem;
+  border-bottom: 0.1rem solid #46c68b;
+}
+section .recharge > p {
+  text-indent: 2em;
+  font-weight: bold;
+  line-height: 4rem;
+}
+section .recharge > p > span {
+  color: #46c68b;
+  font-weight: bold;
+}
+section .recharge .rech {
+  width: 50%;
+  height: 3rem;
+  background-color: #46c68b;
+  line-height: 3rem;
+  text-align: center;
+  font-size: 1.4rem;
+  color: white;
+  border-radius: 4rem;
+  margin-left: 25%;
+}
+section .gekou > p {
+  display: block;
+  font-size: 1.4rem;
+  line-height: 4rem;
+  text-indent: 2em;
+  font-weight: bold;
+}
+section .gekou > span {
+  text-indent: 2em;
+  display: block;
+  font-size: 1.2rem;
+  line-height: 3rem;
+}
+section .bao {
+  width: 100%;
+  height: 6rem;
+  background-color: none;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+section .bao .max {
+  margin-left: 1.5rem;
+  width: 7rem;
+  height: 7rem;
+  background-color: none;
+  border: 0.2rem solid orangered;
+  border-radius: 50%;
+}
+section .bao .max > span {
+  display: block;
+  text-align: center;
+  margin-top: 1.5rem;
+  font-weight: bold;
+  color: yellow;
+  font-size: 1.4rem;
+}
+section .bao .algin {
+  margin-left: 1.5rem;
+  width: 7rem;
+  height: 7rem;
+  background-color: none;
+  border: 0.2rem solid #4997ff;
+  border-radius: 50%;
+}
+section .bao .algin > span {
+  display: block;
+  text-align: center;
+  margin-top: 1.5rem;
+  font-weight: bold;
+  color: #4997ff;
+  font-size: 1.4rem;
+}
+section .bao .min {
+  margin-left: 1.5rem;
+  width: 7rem;
+  height: 7rem;
+  background-color: none;
+  border: 0.2rem solid #f3524a;
+  border-radius: 50%;
+}
+section .bao .min > span {
+  display: block;
+  text-align: center;
+  margin-top: 1.5rem;
+  font-weight: bold;
+  color: #f3524a;
+  font-size: 1.4rem;
+}
+section .bao .selected {
+  margin-left: 1.5rem;
+  width: 7rem;
+  height: 7rem;
+  background-color: #ff4500;
+  border-radius: 50%;
+  border: none;
+}
+section .bao .selected > span {
+  display: block;
+  text-align: center;
+  margin-top: 1.5rem;
+  font-weight: bold;
+  color: white;
+  font-size: 1.4rem;
+}
+section .list {
+  width: 90%;
+  height: 4rem;
+  background-color: #46c68b;
+  margin-top: 3rem;
+  margin-left: 5%;
+  border-radius: 0.5rem;
+  font-size: 1.6rem;
+  color: white;
+  text-align: center;
+  line-height: 4rem;
+  border: none;
+}

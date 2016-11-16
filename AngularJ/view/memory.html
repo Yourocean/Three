@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<div class="wrap" ng-init="tab=false">
+			<header>
+				<span>〉</span>
+				<p>选择格口</p>
+			</header>
+			<section>
+				<div class="recharge" ng-style="{display:tab?'block':'none'}">
+					<p>您的包柜到期时间为：<span>2016年6月20日</span></p>
+					<div class="rech">去充值</div>
+				</div>
+				<div class="gekou">
+					<p>可用格口</p>
+					<span>点击按钮选择与包裹尺寸一致的格口</span>
+					<div class="bao">
+						<div class="max" ng-click="tab=1" ng-class="{'selected':tab==1}">
+							<span>大</br>
+								剩余：1
+							</span>
+						</div>
+						<div class="algin" ng-click="tab=2" ng-class="{'selected':tab==2}">
+							<span>大</br>
+								剩余：1
+							</span>
+						</div>
+						<div class="min" ng-click="tab=3" ng-class="{'selected':tab==3}">
+							<span>大</br>
+								剩余：1
+							</span>
+						</div>
+					</div>
+				</div>
+				<input type="button" class="list"  id="list"
+					ui-sref='memory_one'  value="立即存件"  ng-click="disab(tab)"  />
+				<!--<div ng-style="{'disabled':tab==false}" class="list"  ui-sref="memory_one">立即存件</div>-->
+			</section>
+		</div>
+	</body>
+</html>
