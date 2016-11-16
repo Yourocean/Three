@@ -53,6 +53,10 @@ header .head h1 {
   background: none;
 }
 .my_section .nav_font h3 {
+  line-height: 4rem;
+  font-size: 1.4rem;
+  padding-left: 1rem;
+  margin-bottom: 0.1rem;
   width: 100%;
   height: 4rem;
   background: #ffffff;
@@ -62,6 +66,8 @@ header .head h1 {
 }
 .my_section .nav_font h3 span {
   position: absolute;
+  right: 1rem;
+  font-size: 1.6rem;
 }
 footer {
   width: 100%;

@@ -11,34 +11,27 @@
 		<div class="box_controller">
 			<div class="box_a" ng-show="lis">
 				<div class="nav_search">
-					<p class="p_left"><img src="img/images/B5-01_03.gif"/><input type="search" placeholder="请输入手机号码查询"/></p>
-					<p class="p_right"><img src="img/images/B5-01_03.gif"/><input type="search" placeholder="请输入终端名称查询"/></p>
+					<p class="p_left"><img src="img/images/B5-01_03.gif"/><input type="search" ng-model="phones" placeholder="请输入手机号码查询"/></p>
+					<p class="p_right"><img src="img/images/B5-01_03.gif"/><input type="search" ng-model="searchname" placeholder="请输入终端名称查询"/></p>
 				</div>
 				<div class="nav_list_old">
 					<h2><p>运单号：11111</p><p class="p2"><span class="span_hui">回收失败 </span><a class="a_custom"> 联系客服 </a><span> &gt;</span></p></h2>
-					<h2><p>运单号：11111</p><p class="p2"><span>超时件</span><span> &gt;</span>6</p></h2>
+					<h2><p>运单号：11111</p><p class="p2"><span>超时件</span><span> &gt;</span></p></h2>
+					
 				</div>
-				<div class="nav_list">
-					<h2><p>运单号：11111</p><p class="p2"><span>正常件</span><span> &gt;</span></p></h2>
-					<h2><p>运单号：11111</p><p class="p2"><span>正常件</span><span> &gt;</span></p></h2>
-					<h2><p>运单号：11111</p><p class="p2"><span>正常件</span><span> &gt;</span></p></h2>
-					<h2><p>运单号：11111</p><p class="p2"><span>正常件</span><span> &gt;</span></p></h2>
-					<h2><p>运单号：11111</p><p class="p2"><span>正常件</span><span> &gt;</span></p></h2>
+				<div class="nav_list" ng-show="yin">
+					<h2 ng-repeat="z in waybills"><p>运单号：{{z.code}}</p><p class="p2"><span>{{z.name}}</span><span> &gt;</span></p></h2>
 				</div>
 				
 			</div>
 			<div class="box_b" ng-show="times">
 				
 				<div class="nav_search">
-					<p class="p_left"><img src="img/images/B5-01_03.gif"/><input type="search" placeholder="请输入手机号码查询"/></p>
-					<p class="p_right"><img src="img/images/B5-01_03.gif"/><input type="search" placeholder="请输入终端名称查询"/></p>
+					<p class="p_left"><img src="img/images/B5-01_03.gif"/><input type="search" ng-model="telephone" placeholder="请输入手机号码查询"/></p>
+					<p class="p_right"><img src="img/images/B5-01_03.gif"/><input type="search"ng-model="selectpickup" placeholder="请输入终端名称查询"/></p>
 				</div>
-				<div class="nav_list">
-					<h2><p>运单号：11111</p><p class="p2"><span>已取</span><span> &gt;</span></p></h2>
-					<h2><p>运单号：11111</p><p class="p2"><span>已取</span><span> &gt;</span></p></h2>
-					<h2><p>运单号：11111</p><p class="p2"><span>已取</span><span> &gt;</span></p></h2>
-					<h2><p>运单号：11111</p><p class="p2"><span>已取</span><span> &gt;</span></p></h2>
-					<h2><p>运单号：11111</p><p class="p2"><span>已取</span><span> &gt;</span></p></h2>
+				<div class="nav_list" ng-show="yin">
+					<h2 ng-repeat="q in pickups"><p>运单号：{{q.code}}</p><p class="p2"><span>{{q.name}}</span><span> &gt;</span></p></h2>
 				</div>
 			</div>
 		
