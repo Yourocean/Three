@@ -1,0 +1,153 @@
+@import url(m_resert.css);
+html {
+  font-size: 62.5%;
+}
+html,
+body,
+.warp {
+  width: 100%;
+  height: 100%;
+}
+.warp {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+section {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  width: 100%;
+  height: 100%;
+  background: none;
+}
+section .up img {
+  width: 100%;
+  height: auto;
+  background: none;
+  display: block;
+}
+section .center {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  width: 95%;
+  height: 9rem;
+  background: none;
+  margin: 1rem 0.6rem;
+}
+section .center .c_up {
+  border: 1px solid #d1d1d1;
+  width: 100%;
+  height: 4rem;
+  background: none;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+section .center .c_up .u_left {
+  width: 15%;
+  height: 2.4rem;
+  background: none;
+  margin-top: 1rem;
+  border-right: 1px solid #ccc;
+}
+section .center .c_up .u_left img {
+  width: 1.5rem;
+  height: 2rem;
+  background: none;
+  display: block;
+  margin-left: 1rem;
+}
+section .center .c_up .u_right {
+  -webkit-box-flex: 1;
+}
+section .center .c_up .u_right input {
+  border: none;
+  margin-left: 1rem;
+  margin-top: 0.8rem;
+  width: 50%;
+  height: 2.4rem;
+  background: none;
+  font-size: 1.4rem;
+  color: #ccc;
+}
+section .center .c_down {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  border: 1px solid #d1d1d1;
+  width: 100%;
+  height: 4rem;
+  background: none;
+  margin-top: 1rem;
+}
+section .center .c_down .d_left {
+  width: 15%;
+  height: 2.4rem;
+  background: none;
+  margin-top: 0.8rem;
+  border-right: 1px solid #ccc;
+}
+section .center .c_down .d_left img {
+  width: 1.5rem;
+  height: 2rem;
+  background: none;
+  display: block;
+  margin-left: 1rem;
+}
+section .center .c_down .d_center {
+  width: 50%;
+  height: 2.4rem;
+  background: none;
+  margin-top: 0.8rem;
+}
+section .center .c_down .d_center input {
+  border: none;
+  margin-left: 1rem;
+  width: 60%;
+  height: 2.4rem;
+  background: none;
+  font-size: 1.4rem;
+  color: #ccc;
+}
+section .center .c_down .d_right {
+  width: 35%;
+  height: 2.4rem;
+  background: #51b181;
+  margin-top: 0.8rem;
+  border-radius: 3rem;
+}
+section .center .c_down .d_right p {
+  text-align: center;
+  line-height: 2.4rem;
+  color: #fff;
+  font-weight: normal;
+  word-spacing: 0.8rem;
+  letter-spacing: 0.1rem;
+}
+section .down {
+  width: 95%;
+  height: 4rem;
+  background: #51b181;
+  margin-left: 0.7rem;
+  border-radius: 0.8rem;
+}
+section .down p {
+  text-align: center;
+  line-height: 4rem;
+  color: #fff;
+  font-size: 1.4rem;
+  word-spacing: 0.8rem;
+  letter-spacing: 1rem;
+}
+section .ps {
+  position: relative;
+  width: 95%;
+  height: 2rem;
+  background: none;
+  margin-left: 0.7rem;
+}
+section .ps span {
+  color: #666;
+}
+section .ps .pwd {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
