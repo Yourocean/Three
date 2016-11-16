@@ -1,0 +1,234 @@
+@import url(m_resert.css);
+html {
+  font-size: 62.5%;
+}
+html,
+body,
+.wrap {
+  width: 100%;
+  height: 100%;
+  background: none;
+}
+.wrap {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+header {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  width: 100%;
+  height: 4rem;
+  background: #333333;
+}
+header img {
+  padding: 1.4rem 0.3rem 0 1rem;
+  display: inline-block;
+}
+header h1 {
+  color: white;
+  line-height: 4rem;
+}
+header p {
+  text-align: center;
+  line-height: 4rem;
+  color: white;
+  margin-right: 3rem;
+  letter-spacing: 0.2rem;
+  -webkit-box-flex: 1;
+}
+section {
+  -webkit-box-flex: 1;
+  overflow: auto;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+section .register_main {
+  margin-top: 0.9rem;
+  width: 95%;
+  height: auto;
+  background: none;
+  margin-top: 1.2rem;
+  margin-left: 2%;
+}
+section .register_main .register_phone {
+  width: 100%;
+  height: 4.3rem;
+  background: none;
+  border: 1px solid #ccc;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+section .register_main .register_phone dt {
+  width: 15%;
+  height: 4.3rem;
+  background: none;
+}
+section .register_main .register_phone dt .img_1 {
+  width: 100%;
+  height: 2.2rem;
+  background: none;
+  margin-top: 1rem;
+  text-align: center;
+  border-right: 1px solid #ccc;
+}
+section .register_main .register_phone dt .img_1 img {
+  display: inline-block;
+  margin-top: 0.1rem;
+}
+section .register_main .register_phone dd {
+  -webkit-box-flex: 1;
+}
+section .register_main .register_phone dd input {
+  margin-left: 0.8rem;
+  margin-top: 1.1rem;
+  width: 95%;
+  height: auto;
+  background: none;
+  border: none;
+  outline: none;
+  font-size: 1.5rem;
+}
+section .register_main .register_pwd {
+  margin-top: 1.4rem;
+  width: 100%;
+  height: 4.3rem;
+  background: none;
+  border: 1px solid #ccc;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+section .register_main .register_pwd dt {
+  width: 15%;
+  height: 4.3rem;
+  background: none;
+}
+section .register_main .register_pwd dt .img_2 {
+  width: 100%;
+  height: 2.2rem;
+  background: none;
+  margin-top: 1rem;
+  text-align: center;
+  border-right: 1px solid #ccc;
+}
+section .register_main .register_pwd dt .img_2 img {
+  display: inline-block;
+  margin-top: 0.1rem;
+}
+section .register_main .register_pwd dd {
+  -webkit-box-flex: 1;
+}
+section .register_main .register_pwd dd input {
+  margin-left: 0.8rem;
+  margin-top: 1.1rem;
+  width: 95%;
+  height: auto;
+  background: none;
+  border: none;
+  outline: none;
+  font-size: 1.5rem;
+}
+section .register_main .register_code {
+  width: 100%;
+  height: 4.3rem;
+  background: none;
+  border: 1px solid #ccc;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+section .register_main .register_code dt {
+  width: 15%;
+  height: 4.3rem;
+  background: none;
+}
+section .register_main .register_code dt .img_3 {
+  width: 100%;
+  height: 2.2rem;
+  background: none;
+  margin-top: 1rem;
+  text-align: center;
+  border-right: 1px solid #ccc;
+}
+section .register_main .register_code dt .img_3 img {
+  display: inline-block;
+  margin-top: 0.5rem;
+}
+section .register_main .register_code dd {
+  -webkit-box-flex: 1;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+section .register_main .register_code dd .r_code {
+  -webkit-box-flex: 1;
+}
+section .register_main .register_code dd .r_code input {
+  margin-left: 0.8rem;
+  margin-top: 1.1rem;
+  width: 90%;
+  height: auto;
+  background: none;
+  border: none;
+  outline: none;
+  font-size: 1.5rem;
+}
+section .register_main .register_code dd .re_code {
+  line-height: 4.3rem;
+  margin-left: 0.5rem;
+}
+section .register_main .register_code dd .re_code .code {
+  width: 100%;
+  height: 3rem;
+  background: none;
+  letter-spacing: 0.1rem;
+  border: none;
+  outline: none;
+  border-radius: 1.5rem;
+  padding: 0 0.5rem;
+  box-sizing: border-box;
+  background: #5bca95;
+  color: white;
+  font-size: 1.2rem;
+}
+section .agree {
+  width: 100%;
+  height: 1.6rem;
+  background: none;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  margin-top: 0.7rem;
+  line-height: 1.6rem;
+}
+section .agree input {
+  margin: 0.3rem 0.3rem 0.3rem 0.6rem;
+}
+section .agree a {
+  color: #46c68b;
+}
+section .dl {
+  width: 90%;
+  height: 4.4rem;
+  background: #46c68b;
+  margin-top: 1rem;
+  margin-left: 5%;
+  border-radius: 1rem;
+}
+section .dl button {
+  width: 100%;
+  height: 100%;
+  background: none;
+  color: white;
+  letter-spacing: 1rem;
+  padding-left: 1rem;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+}
+section .already {
+  width: 100%;
+  height: 1.7rem;
+  background: none;
+  line-height: 1.7rem;
+  margin-top: 0.7rem;
+}
+section .already p {
+  text-align: center;
+}
