@@ -1,0 +1,67 @@
+<div class="wrap" ng-controller="excontroller">
+	
+	<header>
+		<div class="head">
+			<p><span>&lt;</span> 关闭</p>
+			<h1>快递记录</h1>
+		</div>
+	</header>
+	<section  class="ex_section" id="wrapper">
+	
+		<div class="box_controller">
+			<div class="box_a" ng-show="lis">
+				<div class="nav_search">
+					<p class="p_left"><img src="img/images/B5-01_03.gif"/><input type="search" placeholder="请输入手机号码查询"/></p>
+					<p class="p_right"><img src="img/images/B5-01_03.gif"/><input type="search" placeholder="请输入终端名称查询"/></p>
+				</div>
+				<div class="nav_list_old">
+					<h2><p>运单号：11111</p><p class="p2"><span class="span_hui">回收失败 </span><a class="a_custom"> 联系客服 </a><span> &gt;</span></p></h2>
+					<h2><p>运单号：11111</p><p class="p2"><span>超时件</span><span> &gt;</span>6</p></h2>
+				</div>
+				<div class="nav_list">
+					<h2><p>运单号：11111</p><p class="p2"><span>正常件</span><span> &gt;</span></p></h2>
+					<h2><p>运单号：11111</p><p class="p2"><span>正常件</span><span> &gt;</span></p></h2>
+					<h2><p>运单号：11111</p><p class="p2"><span>正常件</span><span> &gt;</span></p></h2>
+					<h2><p>运单号：11111</p><p class="p2"><span>正常件</span><span> &gt;</span></p></h2>
+					<h2><p>运单号：11111</p><p class="p2"><span>正常件</span><span> &gt;</span></p></h2>
+				</div>
+				
+			</div>
+			<div class="box_b" ng-show="times">
+				
+				<div class="nav_search">
+					<p class="p_left"><img src="img/images/B5-01_03.gif"/><input type="search" placeholder="请输入手机号码查询"/></p>
+					<p class="p_right"><img src="img/images/B5-01_03.gif"/><input type="search" placeholder="请输入终端名称查询"/></p>
+				</div>
+				<div class="nav_list">
+					<h2><p>运单号：11111</p><p class="p2"><span>已取</span><span> &gt;</span></p></h2>
+					<h2><p>运单号：11111</p><p class="p2"><span>已取</span><span> &gt;</span></p></h2>
+					<h2><p>运单号：11111</p><p class="p2"><span>已取</span><span> &gt;</span></p></h2>
+					<h2><p>运单号：11111</p><p class="p2"><span>已取</span><span> &gt;</span></p></h2>
+					<h2><p>运单号：11111</p><p class="p2"><span>已取</span><span> &gt;</span></p></h2>
+				</div>
+			</div>
+		
+			
+			</div>
+			<ul class="nav_last">
+				<li ng-click="click1(1)" ng-style="{background:index == 1?'#46c68b':'white' , color:index == 1?'white':'black'}" ng-class="red">待取件</li>
+				<li ng-click="click2(2)" ng-style="{background:index == 2?'#46c68b':'white' , color:index == 2?'white':'black'}">已取件</li>
+			</ul>
+	</section>
+	<footer class="foot">
+		<dl>
+			<dt ui-sref="firstz"><img src="img/images/B5-01_09_07.gif"/></dt>
+			<dd>首页</dd>
+		</dl>	
+		<dl ui-sref="express">
+			<dt><img src="img/images/B5-01_05_07_07.gif"/></dt>
+			<dd>快递记录</dd>
+		</dl>
+		<dl  ui-sref="my">
+			<dt><img src="img/images/B5-01_08_03.gif"/></dt>
+			<dd>我的</dd>
+		</dl>
+	</footer>
+</div>
+

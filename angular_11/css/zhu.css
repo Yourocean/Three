@@ -1,0 +1,98 @@
+@import url(m_reset.css);
+html {
+  font-size: 62.5%;
+}
+body,
+html,
+.wrap {
+  width: 100%;
+  height: 100%;
+  background: none;
+}
+.wrap {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+header {
+  width: 100%;
+  height: 3.7rem;
+  background: #000000;
+}
+header .head {
+  color: white;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  line-height: 3.7rem;
+  font-size: 1.4rem;
+}
+header .head p {
+  padding-left: 1rem;
+}
+header .head p span {
+  font-size: 1.6rem;
+}
+header .head h1 {
+  -webkit-box-flex: 1;
+  text-align: center;
+  padding-right: 3.5rem;
+}
+section {
+  -webkit-box-flex: 1;
+  overflow-y: auto ;
+}
+section .banner {
+  margin-bottom: 1rem;
+  width: 100%;
+  height: 12.5rem;
+  background: none;
+}
+section .banner img {
+  width: 100%;
+  height: 100%;
+  background: none;
+  display: block;
+}
+section .nav_box {
+  position: relative;
+  width: 94%;
+  height: 10rem;
+  background: #ffffff;
+  border: 1px solid #ccc;
+  margin-left: 3%;
+  margin-top: 0.3rem;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+section .nav_box dl {
+  -webkit-box-flex: 1;
+  padding-top: 2rem;
+  text-align: center;
+}
+section .nav_box img {
+  width: 4.1rem;
+  height: 4.4rem;
+  background: none;
+}
+section .nav_box p {
+  width: 0.2rem;
+  height: 8rem;
+  background: #cccccc;
+  position: absolute;
+  left: 48.5%;
+  top: 1rem;
+}
+footer {
+  width: 100%;
+  height: 3.8rem;
+  background: #f5f5f5;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  text-align: center;
+}
+footer dl {
+  -webkit-box-flex: 1;
+  padding-top: 0.2rem;
+  width: 2.1rem;
+  height: 2.1rem;
+  background: none;
+}

@@ -1,0 +1,91 @@
+@import url(m_reset.css);
+html{
+    font-size: 62.5%;
+}
+.full(@w,@h,@bg){
+    width: @w;
+    height: @h;
+    background: @bg;
+}
+.box(@ver:vertical){
+    display: -webkit-box;
+    -webkit-box-orient: @ver;
+}
+body,html,.wrap{
+    .full(100%,100%,none);
+}
+.wrap{
+    .box;
+}
+header{
+    .full(100%,3.7rem,black);
+    .head{
+        color: white;
+        .box(horizontal);
+        line-height: 3.7rem;
+        font-size: 1.4rem;
+        p{
+            padding-left: 1rem;
+            span{
+                font-size: 1.6rem;
+            }
+        }
+        h1{
+            -webkit-box-flex: 1;
+            text-align: center;
+            padding-right: 3.5rem;
+        }
+    }
+}
+section{
+    -webkit-box-flex: 1;
+    overflow-y:auto ;
+    
+    .banner{
+        margin-bottom: 1rem;
+       .full(100%,12.5rem,none); 
+       img{
+           .full(100%,100%,none);
+           display: block;
+       }
+       
+    }
+    .nav_box{
+        position: relative;
+        .full(94%,10rem,#ffffff);
+        border: 1px solid #ccc;
+        margin-left: 3%;
+        margin-top: 0.3rem;
+        .box(horizontal);
+        dl{
+            -webkit-box-flex: 1;
+           
+            padding-top: 2rem;
+            text-align: center;
+        }
+       
+        img{
+            
+            .full(4.1rem,4.4rem,none);
+        
+        }
+        p{
+            .full(0.2rem,8rem,#ccc);
+          position: absolute;
+          left: 48.5%;
+          top:1rem;
+        }
+    }
+}
+footer{
+     .full(100%,3.8rem,#f5f5f5);
+     .box(horizontal);
+     text-align: center;
+     dl{
+         
+         -webkit-box-flex: 1;
+         padding-top: 0.2rem;
+         .full(2.1rem,2.1rem,none);
+     }
+}
+
