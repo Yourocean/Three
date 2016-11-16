@@ -1,0 +1,221 @@
+@import url(m_resert.css);
+html {
+  font-size: 62.5%;
+}
+html,
+body,
+.warp {
+  width: 100%;
+  height: 100%;
+}
+.warp {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+header {
+  width: 100%;
+  height: 4rem;
+  background: #333333;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+header .h_left {
+  width: 20%;
+  height: 4rem;
+  background: none;
+}
+header .h_left p {
+  text-align: center;
+  line-height: 4rem;
+  font-size: 1.6rem;
+  color: #fff;
+}
+header .h_right {
+  width: 65%;
+  height: 4rem;
+  background: none;
+}
+header .h_right p {
+  text-align: center;
+  line-height: 4rem;
+  font-size: 1.6rem;
+  color: #fff;
+}
+section {
+  -webkit-box-flex: 1;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+section .one {
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  width: 95%;
+  height: 8rem;
+  background: none;
+  margin: 0.5rem 0.5rem;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+section .one .o_up {
+  width: 100%;
+  height: 4rem;
+  background: none;
+  border-bottom: 1px solid #ccc;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+section .one .o_up .u_left {
+  width: 15%;
+  height: 2.4rem;
+  background: none;
+  margin-top: 1rem;
+  border-right: 1px solid #ccc;
+}
+section .one .o_up .u_left img {
+  width: 1.5rem;
+  height: 2rem;
+  background: none;
+  display: block;
+  margin-left: 1rem;
+}
+section .one .o_up .u_right {
+  -webkit-box-flex: 1;
+}
+section .one .o_up .u_right input {
+  border: none;
+  margin-left: 1rem;
+  margin-top: 0.8rem;
+  width: 50%;
+  height: 2.4rem;
+  background: none;
+  font-size: 1.4rem;
+  color: #ccc;
+}
+section .two {
+  width: 95%;
+  height: 8rem;
+  background: none;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  margin: 0.5rem 0.5rem;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+section .two .t_up {
+  width: 100%;
+  height: 4rem;
+  background: none;
+  border-bottom: 1px solid #ccc;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+section .two .t_up .u_left {
+  width: 15%;
+  height: 2.4rem;
+  background: none;
+  margin-top: 1rem;
+  border-right: 1px solid #ccc;
+}
+section .two .t_up .u_left img {
+  width: 1.5rem;
+  height: 2rem;
+  background: none;
+  display: block;
+  margin-left: 1rem;
+}
+section .two .t_up .u_right {
+  -webkit-box-flex: 1;
+}
+section .two .t_up .u_right input {
+  border: none;
+  margin-left: 1rem;
+  margin-top: 0.8rem;
+  width: 50%;
+  height: 2.4rem;
+  background: none;
+  font-size: 1.4rem;
+  color: #ccc;
+}
+section .two .t_down {
+  width: 100%;
+  height: 4rem;
+  background: none;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+section .two .t_down .d_left {
+  width: 15%;
+  height: 2.4rem;
+  background: none;
+  margin-top: 0.8rem;
+  border-right: 1px solid #ccc;
+}
+section .two .t_down .d_left img {
+  width: 1.5rem;
+  height: 2rem;
+  background: none;
+  display: block;
+  margin-left: 1rem;
+}
+section .two .t_down .d_center {
+  width: 50%;
+  height: 2.4rem;
+  background: none;
+  margin-top: 0.8rem;
+}
+section .two .t_down .d_center input {
+  border: none;
+  margin-left: 1rem;
+  width: 65%;
+  height: 2.4rem;
+  background: none;
+  font-size: 1.4rem;
+  color: #ccc;
+}
+section .two .t_down .d_right {
+  width: 30%;
+  height: 2.4rem;
+  background: #51b181;
+  margin-top: 0.8rem;
+  border-radius: 3rem;
+}
+section .two .t_down .d_right p {
+  text-align: center;
+  line-height: 2.4rem;
+  color: #fff;
+  font-weight: normal;
+  word-spacing: 0.8rem;
+  letter-spacing: 0.1rem;
+}
+section .three {
+  width: 95%;
+  height: 3rem;
+  background: none;
+  margin-left: 0.5rem;
+}
+section .three p {
+  text-align: center;
+  line-height: 3rem;
+}
+section .three p span {
+  color: #46C68B;
+}
+section .four {
+  width: 95%;
+  height: 4rem;
+  background: #46c68b;
+  margin: 1rem 0.5rem;
+  border-radius: 1rem;
+}
+section .four p {
+  text-align: center;
+  line-height: 4rem;
+  color: #fff;
+  font-size: 1.4rem;
+}
+section .five p {
+  text-align: center;
+}
+section .five p span {
+  color: #46C68B;
+}

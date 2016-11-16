@@ -1,0 +1,105 @@
+@import url(m_resert.css);
+html {
+  font-size: 62.5%;
+}
+html,
+body,
+.warp {
+  width: 100%;
+  height: 100%;
+}
+.warp {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+header {
+  width: 100%;
+  height: 4rem;
+  background: #333333;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+header .h_left {
+  width: 20%;
+  height: 4rem;
+  background: none;
+}
+header .h_left p {
+  text-align: center;
+  line-height: 4rem;
+  font-size: 1.6rem;
+  color: #fff;
+}
+header .h_right {
+  width: 65%;
+  height: 4rem;
+  background: none;
+}
+header .h_right p {
+  text-align: center;
+  line-height: 4rem;
+  font-size: 1.6rem;
+  color: #fff;
+}
+section {
+  -webkit-box-flex: 1;
+}
+section .banner {
+  width: 100%;
+  height: 10rem;
+  background: none;
+}
+section .banner img {
+  display: block;
+  width: 100%;
+  height: auto;
+  background: none;
+}
+section .main {
+  width: 90%;
+  height: 9rem;
+  background: none;
+  margin: 2rem 1.2rem;
+  border-left: 0.1rem solid #ebebeb;
+  border-right: 0.1rem solid #ebebeb;
+  border-bottom: 0.2rem solid #ccc;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+section .main .m_left {
+  width: 50%;
+  height: 8rem;
+  background: none;
+  border-right: 1px solid #ccc;
+}
+section .main .m_right {
+  width: 50%;
+  height: 8rem;
+  background: none;
+}
+section .main dl {
+  text-align: center;
+  margin-top: 1rem;
+}
+section .main dl dd {
+  color: #333;
+}
+footer {
+  width: 100%;
+  height: 4rem;
+  background: #f5f5f5;
+  border-top: 1px solid #ccc;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+footer dl {
+  -webkit-box-flex: 1;
+  text-align: center;
+  margin-top: 0.3rem;
+}
+footer dl dd {
+  color: #333;
+}
+footer dl .shou {
+  color: #5bb58f;
+}
